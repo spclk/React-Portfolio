@@ -14,7 +14,7 @@ function Portfolio() {
                     <div class="col s4">
                         <div class="card">
                             <div class="card-image waves-effect waves-block waves-light">
-                              <img class="activator" src="images/cryptelligent.png"/>
+                              <img class="activator" src="images/cryptelligent.png" alt="screenshot of website"/>
                             </div>
                             <div class="card-content">
                               <span class="card-title activator grey-text text-darken-4">Cryptelligent<i class="material-icons right">more_vert</i></span>
@@ -30,7 +30,7 @@ function Portfolio() {
                     <div class="col s4">
                         <div class="card">
                             <div class="card-image waves-effect waves-block waves-light">
-                              <img class="activator" src="images/Day-Planner.png"/>
+                              <img class="activator" src="images/Day-Planner.png" alt="screenshot of website"/>
                             </div>
                             <div class="card-content">
                               <span class="card-title activator grey-text text-darken-4">Day Planner<i class="material-icons right">more_vert</i></span>
@@ -45,7 +45,7 @@ function Portfolio() {
                     <div class="col s4">
                         <div class="card">
                             <div class="card-image waves-effect waves-block waves-light">
-                              <img class="activator" src="images/Projectimator.jpg"/>
+                              <img class="activator" src="images/Projectimator.jpg" alt="screenshot of website"/>
                             </div>
                             <div class="card-content">
                               <span class="card-title activator grey-text text-darken-4">Projectimator<i class="material-icons right">more_vert</i></span>
