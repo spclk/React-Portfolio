@@ -19,7 +19,7 @@ function Main() {
       </div>
       <div className="parallax-container">
         <div className="parallax">
-          <img src="../images/Portfolio.png" alt="digital" />
+          <img src="../images/digital world.jpg" alt="globe with cities connected digitally" />
         </div>
       </div>
       <div className="section white">
@@ -38,7 +38,7 @@ function Main() {
       <br />
       <div className="parallax-container">
         <div className="parallax">
-          <img src="../images/cryptelligent.png" alt="keyboard" />
+          <img src="../images/keyboard binery numbers.jpg" alt="Laptop keyboard with binary nubmers falling" />
         </div>
       </div>
     </main>
