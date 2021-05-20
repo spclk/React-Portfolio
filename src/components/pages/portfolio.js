@@ -8,7 +8,7 @@ function Portfolio() {
         <h3 className="header">Portfolio</h3>
         <p className="grey-text text-darken-3 lighten-3">
           This is only a sample of the projects I've completed at UC Davis
-          Coding Bootcamp. See more on my <a href="/portfolio" className="blue-grey-text text-darken-1">GitHub page</a>.
+          Coding Bootcamp. See more on my <a href="https://github.com/spclk" className="blue-grey-text text-darken-1">GitHub page</a>.
         </p>
       </div>
       <div className="container">
