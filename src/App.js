@@ -1,7 +1,7 @@
 import React, {useEffect} from "react";
 import Header from "./components/Header";
-import Main from "./components/pages/main"
-import Portfolio from "./components/pages/portfolio"
+import Main from "./pages/main"
+import Portfolio from "./pages/portfolio"
 import Footer from "./components/Footer";
 import 'materialize-css/dist/css/materialize.min.css';
 import M from 'materialize-css/dist/js/materialize.min.js';
