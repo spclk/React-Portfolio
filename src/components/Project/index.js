@@ -4,9 +4,13 @@ function Project() {
   return (
     <>
 
-    <h1>{"Cryptelligent"}</h1>
+    <h1>{"Project Title"}</h1>
 
+    <p>{"Project Description"}</p>
 
+    <p>{"Links"}</p>
+
+    
       {/* Scrollspy: need JS initialization */}
       <div className="row">
         <div className="col s12 m9 l10">
