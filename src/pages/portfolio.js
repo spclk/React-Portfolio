@@ -101,7 +101,7 @@ function Portfolio() {
                   Projectimator<i className="material-icons right">close</i>
                 </span>
                 <p>
-                  Provids an online service for Homeowners to locate contractors
+                  Provides an online service for Homeowners to locate contractors
                   that are able to work within a specified budget.
                 </p>
               </div>
