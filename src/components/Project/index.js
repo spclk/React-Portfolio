@@ -3,24 +3,27 @@ import React from "react";
 function Project() {
   return (
     <>
+
+    <h1>{"Cryptelligent"}</h1>
+
+
       {/* Scrollspy: need JS initialization */}
-
-      <div class="row">
-        <div class="col s12 m9 l10">
-          <div id="introduction" class="section scrollspy">
+      <div className="row">
+        <div className="col s12 m9 l10">
+          <div id="introduction" className="section scrollspy">
             <p>Content </p>
           </div>
 
-          <div id="structure" class="section scrollspy">
+          <div id="structure" className="section scrollspy">
             <p>Content </p>
           </div>
 
-          <div id="initialization" class="section scrollspy">
+          <div id="initialization" className="section scrollspy">
             <p>Content </p>
           </div>
         </div>
-        <div class="col hide-on-small-only m3 l2">
-          <ul class="section table-of-contents">
+        <div className="col hide-on-small-only m3 l2">
+          <ul className="section table-of-contents">
             <li>
               <a href="#introduction">Introduction</a>
             </li>
@@ -36,7 +39,7 @@ function Project() {
 
       {/* screenshots */}
       <img
-        class="materialboxed"
+        className="materialboxed"
         width="650"
         src="images/sample-1.jpg"
         alt="screenshot"
