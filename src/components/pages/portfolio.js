@@ -3,7 +3,7 @@ import React from "react";
 function Portfolio() {
   return (
     <main className="grey lighten-1">
-      <div className="section white"></div>
+      <div className="section grey lighten-1"></div>
       <div className="row container">
         <h3 className="header">Portfolio</h3>
         <p className="grey-text text-darken-3 lighten-3">
@@ -109,6 +109,10 @@ function Portfolio() {
           </div>
         </div>
       </div>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
     </main>
   );
 }
