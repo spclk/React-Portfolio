@@ -1,7 +1,7 @@
 import React from "react";
 import "./style.css";
 
-function Navbar() {
+function Header() {
   return (
     <nav >
       <div className="nav-wrapper white z-depth-2">
@@ -36,4 +36,4 @@ function Navbar() {
   );
 }
 
-export default Navbar;
+export default Header;
