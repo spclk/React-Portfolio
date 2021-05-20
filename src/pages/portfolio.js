@@ -13,6 +13,8 @@ function Portfolio() {
       </div>
       <div className="container">
         <div className="row">
+
+          {/* 1st card */}
           <div className="col s5">
             <div className="card">
               <div className="card-image waves-effect waves-block waves-light">
@@ -26,6 +28,9 @@ function Portfolio() {
                   <a href="https://spclk.github.io/Cryptelligent/">Website</a> {""}
                   <a href="https://github.com/spclk/Cryptelligent">GitHub</a>
                 </p>
+              </div>
+              <div className="card-action">
+              <a href="/portfolio">VIEW PROJECT</a>
               </div>
               <div className="card-reveal">
                 <span className="card-title grey-text text-darken-4">
@@ -42,6 +47,8 @@ function Portfolio() {
               </div>
             </div>
           </div>
+
+          {/* 2nd card */}
           <div className="col s5">
             <div className="card">
               <div className="card-image waves-effect waves-block waves-light">
@@ -71,6 +78,8 @@ function Portfolio() {
               </div>
             </div>
           </div>
+
+          {/* 3rd card */}
           <div className="col s5">
             <div className="card">
               <div className="card-image waves-effect waves-block waves-light">
@@ -102,10 +111,6 @@ function Portfolio() {
           </div>
         </div>
       </div>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
     </main>
   );
 }
