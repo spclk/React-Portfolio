@@ -28,11 +28,12 @@ function Main() {
           <h6 className="grey-text text-darken-3 lighten-3">
             Check out some of the the things I've worked on at the UC Davis
             Coding Bootcamp.{" "}
-            <a href="/portfolio" className="blue-grey-text text-darken-1">CLICK HERE</a>
+            <br/>
+            <br/>
+            <a href="/portfolio" className="blue-grey-text text-darken-1">VIEW PORTFOLIO</a>
           </h6>
         </div>
       </div>
-      <br />
       <br />
       <div className="parallax-container">
         <div className="parallax">

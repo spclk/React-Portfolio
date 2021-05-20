@@ -52,11 +52,7 @@ function Portfolio() {
           <div className="col s5">
             <div className="card">
               <div className="card-image waves-effect waves-block waves-light">
-                <img
-                  className="activator"
-                  src="images/Day-Planner.png"
-                  alt="screenshot of website"
-                />
+                <img className="activator" src="images/Day-Planner.png" alt="screenshot of website"/>
               </div>
               <div className="card-content">
                 <span className="card-title activator grey-text text-darken-4">
@@ -66,6 +62,9 @@ function Portfolio() {
                   <a href="https://spclk.github.io/day-planner/">Website</a> {""}
                   <a href="https://github.com/spclk/day-planner">GitHub</a>
                 </p>
+              </div>
+              <div className="card-action">
+              <a href="/portfolio">VIEW PROJECT</a>
               </div>
               <div className="card-reveal">
                 <span className="card-title grey-text text-darken-4">
@@ -83,11 +82,7 @@ function Portfolio() {
           <div className="col s5">
             <div className="card">
               <div className="card-image waves-effect waves-block waves-light">
-                <img
-                  className="activator"
-                  src="images/Projectimator.jpg"
-                  alt="screenshot of website"
-                />
+                <img className="activator" src="images/Projectimator.jpg" alt="screenshot of website"/>
               </div>
               <div className="card-content">
                 <span className="card-title activator grey-text text-darken-4">
@@ -97,6 +92,9 @@ function Portfolio() {
                   <a href="https://arcane-dusk-72745.herokuapp.com/">Website</a> {""}
                   <a href="https://github.com/spclk/Projectimator">GitHub</a>
                 </p>
+              </div>
+              <div className="card-action">
+              <a href="/portfolio">VIEW PROJECT</a>
               </div>
               <div className="card-reveal">
                 <span className="card-title grey-text text-darken-4">
