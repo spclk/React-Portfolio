@@ -3,7 +3,8 @@ import "./style.css";
 
 function Navbar() {
   return (
-    <nav className="nav-wrapper white z-depth-2">
+    <nav >
+      <div className="nav-wrapper white z-depth-2">
       <a href="/" className="brand-logo blue-grey-text text-darken-4">
         Konstantin
       </a>
@@ -30,6 +31,7 @@ function Navbar() {
           </a>
         </li>
       </ul>
+      </div>
     </nav>
   );
 }
