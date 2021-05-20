@@ -13,23 +13,18 @@ function Portfolio() {
       </div>
       <div className="container">
         <div className="row">
-          <div className="col s4">
+          <div className="col s5">
             <div className="card">
               <div className="card-image waves-effect waves-block waves-light">
-                <img
-                  className="activator"
-                  src="images/cryptelligent.png"
-                  alt="screenshot of website"
-                />
+                <img className="activator" src="images/cryptelligent.png" alt="screenshot of website"/>
               </div>
               <div className="card-content">
                 <span className="card-title activator grey-text text-darken-4">
                   Cryptelligent<i className="material-icons right">more_vert</i>
                 </span>
                 <p>
-                  <a href="https://spclk.github.io/Cryptelligent/">
-                    Link to Website
-                  </a>
+                  <a href="https://spclk.github.io/Cryptelligent/">Website</a> {""}
+                  <a href="https://github.com/spclk/Cryptelligent">GitHub</a>
                 </p>
               </div>
               <div className="card-reveal">
@@ -61,9 +56,8 @@ function Portfolio() {
                   Day Planner<i className="material-icons right">more_vert</i>
                 </span>
                 <p>
-                  <a href="https://spclk.github.io/day-planner/">
-                    Link to Website
-                  </a>
+                  <a href="https://spclk.github.io/day-planner/">Website</a> {""}
+                  <a href="https://github.com/spclk/day-planner">GitHub</a>
                 </p>
               </div>
               <div className="card-reveal">
@@ -91,9 +85,8 @@ function Portfolio() {
                   Projectimator<i className="material-icons right">more_vert</i>
                 </span>
                 <p>
-                  <a href="https://arcane-dusk-72745.herokuapp.com/">
-                    Link to Website
-                  </a>
+                  <a href="https://arcane-dusk-72745.herokuapp.com/">Website</a> {""}
+                  <a href="https://github.com/spclk/Projectimator">GitHub</a>
                 </p>
               </div>
               <div className="card-reveal">
