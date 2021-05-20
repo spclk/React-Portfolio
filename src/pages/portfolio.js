@@ -1,4 +1,6 @@
 import React from "react";
+import Project from "../components/Project";
+import ProjectData from "../project-data.json"
 
 function Portfolio() {
   return (
@@ -15,7 +17,7 @@ function Portfolio() {
         <div className="row">
 
           {/* 1st card */}
-          <div className="col s5">
+          {/* <div className="col s5">
             <div className="card">
               <div className="card-image waves-effect waves-block waves-light">
                 <img className="activator" src="images/cryptelligent.png" alt="screenshot of website"/>
@@ -46,10 +48,13 @@ function Portfolio() {
                 </p>
               </div>
             </div>
-          </div>
+          </div> */}
 
-          {/* 2nd card */}
-          <div className="col s5">
+          {ProjectData.map(project => (
+            <Project project={project}/>
+          ))}
+
+          {/* <div className="col s5">
             <div className="card">
               <div className="card-image waves-effect waves-block waves-light">
                 <img className="activator" src="images/Day-Planner.png" alt="screenshot of website"/>
@@ -76,10 +81,10 @@ function Portfolio() {
                 </p>
               </div>
             </div>
-          </div>
+          </div> */}
 
           {/* 3rd card */}
-          <div className="col s5">
+          {/* <div className="col s5">
             <div className="card">
               <div className="card-image waves-effect waves-block waves-light">
                 <img className="activator" src="images/Projectimator.jpg" alt="screenshot of website"/>
@@ -106,7 +111,7 @@ function Portfolio() {
                 </p>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </main>
