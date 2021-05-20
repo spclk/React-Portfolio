@@ -5,8 +5,8 @@ function Portfolio() {
     <main className="grey lighten-1">
       <div className="section grey lighten-1"></div>
       <div className="row container">
-        <h3 className="header">Portfolio</h3>
-        <p className="grey-text text-darken-3 lighten-3">
+        <h3 className="header white-text">Portfolio</h3>
+        <p className="white-text">
           This is only a sample of the projects I've completed at UC Davis
           Coding Bootcamp. See more on my <a href="https://github.com/spclk" className="blue-grey-text text-darken-1">GitHub page</a>.
         </p>
@@ -42,7 +42,7 @@ function Portfolio() {
               </div>
             </div>
           </div>
-          <div className="col s4">
+          <div className="col s5">
             <div className="card">
               <div className="card-image waves-effect waves-block waves-light">
                 <img
@@ -71,7 +71,7 @@ function Portfolio() {
               </div>
             </div>
           </div>
-          <div className="col s4">
+          <div className="col s5">
             <div className="card">
               <div className="card-image waves-effect waves-block waves-light">
                 <img
