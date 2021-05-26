@@ -24,25 +24,11 @@ function Project(props) {
                     <h3>{props.project.title}</h3>
                   </div>
                   <p className="fi">
-                    Literally venmo before they sold out, DIY heirloom forage
-                    polaroid offal yr pop-up selfies health goth. Typewriter
-                    scenester hammock truffaut meditation, squid before they
-                    sold out polaroid portland tousled taxidermy vice. Listicle
-                    butcher thundercats, taxidermy pitchfork next level roof
-                    party crucifix narwhal kinfolk you probably haven't heard of
-                    them portland small batch.
+                    {props.project.description}
                   </p>
+                  <h5>Website Link:</h5>
                   <p className="fi">
-                    Ea salvia adipisicing vegan man bun. Flexitarian cupidatat
-                    skateboard flannel. Drinking vinegar marfa you probably
-                    haven't heard of them consequat post-ironic, shabby chic
-                    williamsburg raclette vaporware readymade selfies brunch.
-                    Venmo selvage biodiesel marfa. Tbh literally 3 wolf moon,
-                    proident elit raclette chambray consequat edison bulb four
-                    loko accusamus. Semiotics godard eiusmod, ex esse air plant
-                    quinoa vaporware selfies keytar. Actually yuccie ennui
-                    flannel single-origin coffee, williamsburg cardigan banjo
-                    forage pug distillery tumblr hexagon vinyl occaecat.
+                  <a className="carousel-item" href="#three!">{props.project.website}</a>
                   </p>
 
                   <div className="carousel-wrapper">
