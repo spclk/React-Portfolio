@@ -26,9 +26,14 @@ function Project(props) {
                   <p className="fi">
                     {props.project.description}
                   </p>
-                  <h5>Website Link:</h5>
+                  <h5>Website:</h5>
                   <p className="fi">
                   <a className="carousel-item" href="#three!">{props.project.website}</a>
+                  </p>
+
+                  <h5>GitHub Repo:</h5>
+                  <p className="fi">
+                  <a className="carousel-item" href="#three!">{props.project.github}</a>
                   </p>
 
                   <div className="carousel-wrapper">
@@ -72,7 +77,7 @@ function Project(props) {
                   </div>
                 </div>
                 <div className="gallery-action">
-                <a class="btn-floating btn-large waves-effect waves-light"><i class="material-icons">favorite</i></a>
+                <a class="btn-floating btn-large waves-effect waves-light"><i class="material-icons">import_contacts</i></a>
               </div>
               </div>
             </div>
