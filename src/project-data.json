@@ -1,8 +1,23 @@
 [
     {
         "title": "Projectimator",
-        "description": "Contractor",
-        "website": "",
-        "github": ""
+        "description": "Provides an online service for Homeowners to locate contractors that are able to work within a specified budget.",
+        "website": "https://arcane-dusk-72745.herokuapp.com/",
+        "github": "https://github.com/spclk/Projectimator",
+        "image": "./images/Projectimator.jpg"
+    },
+    {
+        "title": "Cryptelligent",
+        "description": "This is an online application for new investors who wish to learn more about the world of cryptocurrency. CoinGecko and Bloomberg APIs are utilized to provide the cryptocurrency information.",
+        "website": "https://spclk.github.io/Cryptelligent/",
+        "github": "https://github.com/spclk/Cryptelligent",
+        "image": "./images/Projectimator.jpg"
+    },
+    {
+        "title": "Day Planner",
+        "description": "This is a simple calendar application that allows a user to save events for each hour of the day at work.",
+        "website": "https://spclk.github.io/day-planner/",
+        "github": "https://github.com/spclk/day-planner",
+        "image": "./images/Day-Planner.png"
     }
 ]
