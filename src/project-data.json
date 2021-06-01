@@ -5,7 +5,7 @@
         "website": "https://arcane-dusk-72745.herokuapp.com/",
         "github": "https://github.com/spclk/Projectimator",
         "image": "./images/Projectimator.jpg", 
-        "screenshots": ["./images/data_ss.png", "./images/home_ss.png", "./images/info_ss.png"]
+        "screenshots": ["./images/Projectimator.jpg", "./images/projectimator1.png", "./images/projectimator2.png"]
         
     },
     {
@@ -13,15 +13,15 @@
         "description": "This is an online application for new investors who wish to learn more about the world of cryptocurrency. CoinGecko and Bloomberg APIs are utilized to provide the cryptocurrency information.",
         "website": "https://spclk.github.io/Cryptelligent/",
         "github": "https://github.com/spclk/Cryptelligent",
-        "image": "./images/cryptelligent.png",
-        "screenshots": ["./images/data_ss.png", "./images/home_ss.png", "./images/info_ss.png"]
+        "image": "./images/cryptelligent.jpg",
+        "screenshots": ["./images/home_ss.png", "./images/data_ss.png", "./images/info_ss.png"]
     },
     {
-        "title": "Day Planner",
-        "description": "This is a simple calendar application that allows a user to save events for each hour of the day at work.",
-        "website": "https://spclk.github.io/day-planner/",
-        "github": "https://github.com/spclk/day-planner",
-        "image": "./images/Day-Planner.png",
-        "screenshots": ["./images/data_ss.png", "./images/home_ss.png", "./images/info_ss.png"]
+        "title": "Fitness Tracker",
+        "description": "Fitness Tracker allows you to view, create, and track daily workouts. In this app, you can log multiple cardio or resistance exercises per day, as well as track them by different categories. User can log resitance exercises and track them by name, type, weight, sets, reps, and duration of exercise. Or a user can log cardio exerises and track them by name and distance traveled.",
+        "website": "https://serene-dusk-47892.herokuapp.com/",
+        "github": "https://github.com/spclk/Fitness-Tracker",
+        "image": "./images/fitness-tracker1.png",
+        "screenshots": ["./images/fitness-tracker1.png", "./images/fitness-tracker2.png", "./images/fitness-tracker3.png"]
     }
 ]

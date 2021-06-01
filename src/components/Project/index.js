@@ -26,15 +26,17 @@ function Project(props) {
                   <p className="fi">
                     {props.project.description}
                   </p>
-                  <h5>Website:</h5>
+                  <h5>Website</h5>
                   <p className="fi">
                   <a className="carousel-item" href={props.project.website}>{props.project.website}</a>
                   </p>
 
-                  <h5>GitHub Repo:</h5>
+                  <h5>GitHub Repo</h5>
                   <p className="fi">
                   <a className="carousel-item" href={props.project.github}>{props.project.github}</a>
                   </p>
+
+                  <h5>Screenshots</h5>
                   <img className="responsive-img" src={props.project.screenshots[0]} alt=""></img>
                   <img className="responsive-img" src={props.project.screenshots[1]} alt=""></img>
                   <img className="responsive-img" src={props.project.screenshots[2]} alt=""></img>
