@@ -13,7 +13,7 @@
         "description": "This is an online application for new investors who wish to learn more about the world of cryptocurrency. CoinGecko and Bloomberg APIs are utilized to provide the cryptocurrency information.",
         "website": "https://spclk.github.io/Cryptelligent/",
         "github": "https://github.com/spclk/Cryptelligent",
-        "image": "./images/cryptelligent.jpg",
+        "image": "./images/cryptelligent2.jpg",
         "screenshots": ["./images/home_ss.png", "./images/data_ss.png", "./images/info_ss.png"]
     },
     {
