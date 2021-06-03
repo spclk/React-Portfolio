@@ -12,7 +12,7 @@ function App() {
 
   useEffect(() => {
     var elems = document.querySelectorAll('.parallax');
-    var instances = M.Parallax.init(elems, {});
+    M.Parallax.init(elems, {});
   },[]);
 
   return (
