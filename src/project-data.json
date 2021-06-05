@@ -1,5 +1,14 @@
 [
     {
+        "title": "ChargeBuddy",
+        "description": "This app provides geoloaction to locate the user as well as charging stations for Electric Vehicles nearby. The user Registers their information with the application including their cars charging port and it is stored in a database. When they log back in that information and all nearby charging stations are displayed in a map on their homepage.",
+        "website": "https://shielded-atoll-36831.herokuapp.com/",
+        "github": "https://github.com/spclk/ChargeBuddy",
+        "image": "./images/chargebuddy.png", 
+        "screenshots": ["./images/chargebuddy1.png", "./images/chargebuddy3.png", "./images/chargebuddy2.png"]
+        
+    },
+    {
         "title": "Projectimator",
         "description": "Provides an online service for Homeowners to locate contractors that are able to work within a specified budget.",
         "website": "https://arcane-dusk-72745.herokuapp.com/",
@@ -23,5 +32,21 @@
         "github": "https://github.com/spclk/Fitness-Tracker",
         "image": "./images/fitness-tracker1.png",
         "screenshots": ["./images/fitness-tracker1.png", "./images/fitness-tracker2.png", "./images/fitness-tracker3.png"]
+    },
+    {
+        "title": "Weather Dashboard",
+        "description": "This is a simple weather app that allows you to check for current weather conditions and a 5-day forecast. It retrieves weather data for cities using the OpenWeather APIs. Searching for multiple cities will give you a clickable search history list you can use to retrieve weather for those cities again.",
+        "website": "https://spclk.github.io/weather-dashboard/",
+        "github": "https://github.com/spclk/weather-dashboard",
+        "image": "./images/weatherdashboard.png",
+        "screenshots": ["./images/weatherdashboard.png", "./images/weatherdashboard.png", "./images/weatherdashboard.png"]
+    },
+    {
+        "title": "Note Taker",
+        "description": "This app can be used to write and save notes. It provides a simple and user-friendly interface, where a user can organize notes by title, store them for future use, or delete them.",
+        "website": "https://still-beach-73975.herokuapp.com/",
+        "github": "https://github.com/spclk/Note-Taker",
+        "image": "./images/notetaker.png",
+        "screenshots": ["./images/notetaker1.png", "./images/notetaker1.png", "./images/notetaker1.png"]
     }
 ]
