@@ -11,7 +11,7 @@ function Project(props) {
                 <a className="gallery-cover gray">
                   <img
                     className="responsive-img"
-                    src={props.project.image}
+                    src={process.env.PUBLIC_URL + props.project.image}
                     alt="placeholder"
                     crossorigin="anonymous"
                   />
@@ -37,9 +37,9 @@ function Project(props) {
                   </p>
 
                   <h5>Screenshots</h5>
-                  <img className="responsive-img" src={props.project.screenshots[0]} alt=""></img>
-                  <img className="responsive-img" src={props.project.screenshots[1]} alt=""></img>
-                  <img className="responsive-img" src={props.project.screenshots[2]} alt=""></img>
+                  <img className="responsive-img" src={process.env.PUBLIC_URL + props.project.screenshots[0]} alt=""></img>
+                  <img className="responsive-img" src={process.env.PUBLIC_URL + props.project.screenshots[1]} alt=""></img>
+                  <img className="responsive-img" src={process.env.PUBLIC_URL + props.project.screenshots[2]} alt=""></img>
                 </div>
                 <div className="gallery-action">
                 <a className="btn-floating btn-large waves-effect waves-light"><i className="material-icons">import_contacts</i></a>
