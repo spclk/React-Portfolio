@@ -19,7 +19,7 @@ function Main() {
       </div>
       <div className="parallax-container">
         <div className="parallax">
-          <img src="./images/digital-world.jpg" alt="globe with cities connected digitally" />
+          <img src="./public/images/digital-world.jpg" alt="globe with cities connected digitally" />
         </div>
       </div>
       <div className="section white">
