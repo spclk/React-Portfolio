@@ -1,18 +1,7 @@
-# PORTFOLIO
+# This Repo has moved!
 
-This is my personal portfolio build with React and Materialize. It will continue to be updated as I am working on multiple coding projects.
+This repo was merged into my main GitHub page at "spclk.github.io" See my finished Portfolio there by clicking on the link below: 
 
-## My Resume is also included in this repository.
+### Link to Portfolio Repo
 
-Open the "resume.pdf" file
-
-### Link to Portfolio
-
-Check out the deployed link here: [My Portfolio](https://spclk.github.io/React-Portfolio/).
-
-### Screenshot
-
-![Portfolio](./public/images/Portfolio.png)
-
-Thank you for your insterest in my work!
-Konstantin
+[My Portfolio](https://github.com/spclk/spclk.github.io).
