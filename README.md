@@ -1,6 +1,6 @@
 # This Repo has moved!
 
-This repo was merged into my main GitHub page at "spclk.github.io" See my finished Portfolio there by clicking on the link below: 
+This repo was merged into my main GitHub website at "spclk.github.io" See my finished Portfolio there by clicking on the link below: 
 
 ### Link to Portfolio Repo
 
