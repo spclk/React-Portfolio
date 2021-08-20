@@ -1,8 +1,15 @@
-import React from "react";
+import React, {useEffect} from "react";
 import Project from "../components/Project";
 import ProjectData from "../project-data.json"
+import 'materialize-css/dist/css/materialize.min.css';
+import M from 'materialize-css/dist/js/materialize.min.js';
 
 function Portfolio() {
+  
+  useEffect(() => {
+    M.AutoInit();
+  });
+
   return (
     <main className="grey lighten-3">
       <div className="section grey lighten-3"></div>
@@ -13,9 +20,8 @@ function Portfolio() {
           Coding Bootcamp. See more on my <a href="https://github.com/spclk" className="blue-grey-text text-darken-4">GitHub page</a>.
         </p>
       </div>
-      <div className="container">
-        <div className="row">
-
+      <div className="row container">
+        <div>
           {ProjectData.map(project => (
             <Project project={project}/>
           ))}

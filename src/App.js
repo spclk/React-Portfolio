@@ -11,9 +11,8 @@ import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 function App() {
 
   useEffect(() => {
-    var elems = document.querySelectorAll('.parallax');
-    M.Parallax.init(elems, {});
-  },[]);
+    M.AutoInit();
+  },);
 
   return (
     <div>

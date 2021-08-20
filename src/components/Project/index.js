@@ -1,55 +1,61 @@
-import React from "react";
+import React, { useEffect } from "react";
+import { Row, Col, Card, Icon, CardTitle } from "react-materialize";
+import M from "materialize-css/dist/js/materialize.min.js";
 
 function Project(props) {
+  useEffect(() => {
+    M.AutoInit();
+  });
+
   return (
-    <>
-      <div id="portfolio" class="cx gray">
-        <div className="">
-          <div className="b e">
-            <div className="d hx hf gu gallery-item gallery-expand ce polygon">
-              <div className="gallery-curve-wrapper">
-                <a className="gallery-cover gray">
+
+      <Row>
+        <Col
+          m={12}
+          s={12}
+        >
+          <Card
+            closeIcon={<Icon>close</Icon>}
+            header={<CardTitle image={process.env.PUBLIC_URL + props.project.image} reveal waves="light"/>}
+            reveal={<p>{props.project.description}
+            <br/>
+            <br/>
+            {props.project.tech}
+            <br/>
+            <br/>
+            <img
+                    className="responsive-img"
+                    src={process.env.PUBLIC_URL + props.project.screenshots[0]}
+                    alt=""
+                  ></img>
                   <img
                     className="responsive-img"
-                    src={process.env.PUBLIC_URL + props.project.image}
-                    alt="placeholder"
-                    crossorigin="anonymous"
-                  />
-                </a>
-                <div className="gallery-header">
-                  <span>{props.project.title}</span>
-                </div>
-                <div className="gallery-body">
-                  <div className="title-wrapper">
-                    <h3>{props.project.title}</h3>
-                  </div>
-                  <p className="fi">
-                    {props.project.description}
-                  </p>
-                  <h5>Website</h5>
-                  <p className="fi">
-                  <a className="carousel-item" href={props.project.website}>{props.project.website}</a>
-                  </p>
-
-                  <h5>GitHub Repo</h5>
-                  <p className="fi">
-                  <a className="carousel-item" href={props.project.github}>{props.project.github}</a>
-                  </p>
-
-                  <h5>Screenshots</h5>
-                  <img className="responsive-img" src={process.env.PUBLIC_URL + props.project.screenshots[0]} alt=""></img>
-                  <img className="responsive-img" src={process.env.PUBLIC_URL + props.project.screenshots[1]} alt=""></img>
-                  <img className="responsive-img" src={process.env.PUBLIC_URL + props.project.screenshots[2]} alt=""></img>
-                </div>
-                <div className="gallery-action">
-                <a className="btn-floating btn-large waves-effect waves-light"><i className="material-icons">import_contacts</i></a>
-              </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </>
+                    src={process.env.PUBLIC_URL + props.project.screenshots[1]}
+                    alt=""
+                  ></img>
+                  <img
+                    className="responsive-img"
+                    src={process.env.PUBLIC_URL + props.project.screenshots[2]}
+                    alt=""
+                  ></img>
+            </p>}
+            
+            revealIcon={<Icon>more_vert</Icon>}
+            title={props.project.title}
+          >
+            <p>
+              <a href={props.project.github}>
+                GitHub
+              </a>
+              
+              {""} | {""}
+              <a href={props.project.website}>
+                Website
+              </a>
+            </p>
+          </Card>
+        </Col>
+      </Row>
   );
 }
 
